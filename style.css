@@ -784,8 +784,9 @@ footer p {
 
 /*=================================== RESPONSIVE ===============================*/
 
-@media (max-width: 600px) {
-   /*head*/
+@media (max-width: 720px) {
+    /* Estilos para smartphones grandes (720x1280 px) */
+
     header {
         position: absolute;
         left: 20px;
@@ -795,44 +796,38 @@ footer p {
     }
 
     #logo {
-        width: 80px; 
-    }
-
-   
-    #tablanombre {
-        padding: 1px ;
+        width: 80px;
     }
 
     #foto {
-        width: 120px; 
+        width: 120px;
         top: -5%;
-        left: 43%;
+        left: 35%;
     }
 
     #nombre {
-        font-size: 1.2em; 
-        left: 20%;
+        font-size: 1.2em;
+        left: 3%;
     }
 
     #dienador {
-        font-size: 0.9em; 
-        left: 19%;
-        top: 70%
+        font-size: 0.9em;
+        left: 3%;
+        top: 70%;
     }
-    /*quien soy*/
+
     #quiensoy {
         padding: 0 10px;
         top: -40%;
         left: 9%;
     }
 
-    /*virtudes */
     #tablavirtudes {
         flex-direction: column;
         align-items: center;
         top: 100%;
         width: 100%;
-        left:0%;
+        left: 0%;
     }
 
     #tablavirtudes td {
@@ -841,851 +836,187 @@ footer p {
     }
 
     #tablavirtudes h1 {
-        font-size: 0.99em; /* Reducir tamaño de los títulos */
+        font-size: 0.99em;
     }
 
-    /*proyectos*/
-    #proyectos{
+    #proyectos {
         top: 149%;
     }
 
+    .streetf, .sopa, .dragon, .connecta {
+        position: absolute;
+        width: 45%;
+        height: 15%;
+        border-radius: 20%;
+        overflow: hidden;
+    }
+
     .streetf {
-        position: absolute;
-        width: 35%;
-        height: 15%;
-        border-radius: 20%;
         top: 15%;
         left: 1%;
-        overflow: hidden; 
     }
 
-    .streetf .street2, .sopa .sopal1, .dragon .dragonball, .connecta .connect5 {
-        position: absolute;
-        bottom: 90%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el texto */
-        color: #fff;
-        text-align: center;
-        border-radius: 10px;
-        font-size: 0.6em;
-    }
-
-    .streetf .street2 button, .sopa .sopal1 button, .dragon .dragonball button, .connecta .connect5 button {
-        padding: 10px;
-        font-size: 0.8em;
-    }
-    
-    .sopa{
-        position: absolute;
-        width: 35%;
-        height: 15%;
-        border-radius: 20%;
+    .sopa {
         top: 15%;
         left: 60%;
-        overflow: hidden; 
     }
 
-    .dragon{
-        position: absolute;
-        width: 35%;
-        height: 15%;
-        border-radius: 20%;
+    .dragon {
         top: 40%;
         left: 1%;
-        overflow: hidden;
     }
 
-    .connecta{
-        position: absolute;
-        width: 35%;
-        height: 15%;
-        border-radius: 20%;
+    .connecta {
         top: 40%;
         left: 60%;
-        overflow: hidden;
     }
 
-    /*footer*/
+    #boton-street,
+    #boton-connecta5,
+    #boton-dragon,
+    #boton-sopa {
+        position: absolute;
+        border-radius: 20px;
+        border: solid 1px;
+        color: black;
+        background-color: rgba(187, 180, 180, 0.356);
+        width: 120px;
+        height: 40px;
+        top: 40%;
+        left: 6%;
+    }
 
-    .contactos{
+    .contactos {
         width: 100%;
         left: 0%;
-        top:220%;
+        top: 220%;
     }
+
     #logocontacto {
         width: 80px;
-        height: 110px; 
+        height: 110px;
+        left: 43%;
     }
 
-
-    #github{
+    #github {
         position: absolute;
         font-size: 50px;
         top: 242%;
         left: 12%;
         color: white;
     }
-    #linkedin{
+
+    #linkedin {
         position: absolute;
         font-size: 50px;
         top: 242%;
         left: 35%;
         color: white;
     }
-    #email{
+
+    #email {
         position: absolute;
         font-size: 50px;
         top: 242%;
         left: 57%;
         color: white;
     }
-    #phone{
+
+    #phone {
         position: absolute;
         font-size: 50px;
         top: 242%;
         left: 80%;
         color: white;
     }
+
     footer p {
         color: white;
         position: absolute;
         top: 252%;
-        left: 15%
-        
+        left: 3%;
     }
 }
 
-@media (max-width: 430px) {
-    /*head*/
-     header {
-         position: absolute;
-         left: 20px;
-         top: 1%;
-         width: 100%;
-         height: 100%;
-     }
- 
-     #logo {
-         width: 80px; 
-     }
- 
-    
-     #tablanombre {
-         padding: 1px ;
-     }
- 
-     #foto {
-         width: 120px; 
-         top: -5%;
-         left: 35%;
-     }
- 
-     #nombre {
-         font-size: 1.2em; 
-         left: 3%;
-     }
- 
-     #dienador {
-         font-size: 0.9em; 
-         left: 3%;
-         top: 70%
-     }
-     /*quien soy*/
-     #quiensoy {
-         padding: 0 10px;
-         top: -40%;
-         left: 9%;
-     }
- 
-     /*virtudes */
+@media (max-width: 375px) {
+    /* Estilos para móviles medianos (375x667 px) */
 
-
-     #porcentagecast{
-        position: relative;
-        left:-9%;
-     }
-     
-     #porcentagecata{
-        position: absolute;
-        left:80%;
-        top: -12%;
-     }
-     #porcentageres{
-        position: absolute;
-        left:80%;
-        top: 40%;
-     }
-     #porcentagepers{
-        position: absolute;
-        left:80%;
-        top: 70%;
-     }
-     #porcentagecaris{
-        position: absolute;
-        left:80%;
-        top: 40%;
-     }
-
-     #porcentagejs{
-        position: absolute;
-        left:80%;
-        top: -21%;
-     }
-
-     #cast span:first-child::after {
-        position: absolute;
-        content: 'CASTE';
-        visibility: visible;
-        display: inline-block;
-        top: 1%;
-        left: 5%;
-    }
-    #cast span:first-child {
-        visibility: hidden;
+    header {
+        left: 15px;
     }
 
-    #cata span:first-child::after {
-        position: absolute;
-        content: 'CAT';
-        visibility: visible;
-        display: inline-block;
-        top: -18%;
-        left: 5%;
-    }
-    #cata span:first-child {
-        visibility: hidden;
+    #foto {
+        width: 100px;
+        left: 30%;
     }
 
-    #ingl span:first-child::after {
-        position: absolute;
-        content: 'ENG';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #ingl span:first-child {
-        visibility: hidden;
+    #quiensoy {
+        top: -35%;
     }
 
-    #res span:first-child::after {
-        position: absolute;
-        content: 'RESOL';
-        visibility: visible;
-        display: inline-block;
-        top: 40%;
-        left: 5%;
-    }
-    #res span:first-child {
-        visibility: hidden;
+    #porcentagecata,
+    #porcentagecaris {
+        display: none; /* Ocultar elementos específicos para este tamaño */
     }
 
-    #pers span:first-child::after {
-        position: absolute;
-        content: 'PERS';
-        visibility: visible;
-        display: inline-block;
-        top: 70%;
-        left: 5%;
-    }
-    #pers span:first-child {
-        visibility: hidden;
+    .streetf,
+    .sopa,
+    .dragon,
+    .connecta {
+        width: 40%;
     }
 
-    #caris span:first-child::after {
-        position: absolute;
-        content: 'CARIS';
-        visibility: visible;
-        display: inline-block;
-        top: 40%;
-        left: 5%;
-    }
-    #caris span:first-child {
-        visibility: hidden;
+    #boton-street,
+    #boton-connecta5,
+    #boton-dragon,
+    #boton-sopa {
+        left: 3%; /* Ajustar posición de botones */
     }
 
-    #html span:first-child::after {
-        position: absolute;
-        content: 'HTML';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
+    .contactos {
+        top: 200%; /* Ajustar posición de la sección de contactos */
     }
-    #html span:first-child {
-        visibility: hidden;
+}
+
+@media (max-width: 360px) {
+    /* Estilos para móviles pequeños (360x640 px) */
+
+    header {
+        left: 10px;
     }
 
-    #css span:first-child::after {
-        position: absolute;
-        content: 'CSS';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #css span:first-child {
-        visibility: hidden;
+    #foto {
+        width: 90px;
+        left: 25%;
     }
 
-    #js span:first-child::after {
-        position: absolute;
-        content: 'JS';
-        visibility: visible;
-        display: inline-block;
-        top: -13%;
-        left: 5%;
-    }
-    #js span:first-child {
-        visibility: hidden;
+    #quiensoy {
+        top: -30%;
     }
 
-    #sql span:first-child::after {
-        position: absolute;
-        content: 'SQL';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #sql span:first-child {
-        visibility: hidden;
+    #proyectos {
+        top: 130%; /* Ajustar posición de la sección de proyectos */
     }
 
-
-     #tablavirtudes {
-         flex-direction: column;
-         align-items: center;
-         top: 100%;
-         width: 100%;
-         left:0%;
-     }
- 
-     #tablavirtudes td {
-         flex-basis: 90%;
-         margin-bottom: 10px;
-     }
- 
-     #tablavirtudes h1 {
-         font-size: 0.99em; /* Reducir tamaño de los títulos */
-     }
- 
-     /*proyectos*/
-     #proyectos{
-         top: 149%;
-     }
- 
-     .streetf {
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 15%;
-         left: 1%;
-         overflow: hidden; 
-     }
- 
-     .streetf .street2, .sopa .sopal1, .dragon .dragonball, .connecta .connect5 {
-         position: absolute;
-         bottom: 90%;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el texto */
-         color: #fff;
-         text-align: center;
-         border-radius: 10px;
-         font-size: 0.6em;
-     }
- 
-     .streetf .street2 button, .sopa .sopal1 button, .dragon .dragonball button, .connecta .connect5 button {
-         padding: 10px;
-         font-size: 0.8em;
-     }
-     
-     .sopa{
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 15%;
-         left: 60%;
-         overflow: hidden; 
-     }
- 
-     .dragon{
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 40%;
-         left: 1%;
-         overflow: hidden;
-     }
- 
-     .connecta{
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 40%;
-         left: 60%;
-         overflow: hidden;
-     }
-
-     #texto{
-        display: none;
-     }
-
-     #boton-street, #boton-connecta5, #boton-dragon, #boton-sopa{
-        position: absolute;
-        border-radius: 20px;
-        border: solid 1px;
-        color: black;
-        background-color: rgba(187, 180, 180, 0.356);
-        width: 120px;
-        height: 40px;
-        top: 40%;
-        left: 6%
-
-    }
- 
-     /*footer*/
- 
-     .contactos{
-         width: 100%;
-         left: 0%;
-         top:220%;
-     }
-     #logocontacto {
-         width: 80px;
-         height: 110px; 
-         left: 43%;
-     }
- 
- 
-     #github{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 12%;
-         color: white;
-     }
-     #linkedin{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 35%;
-         color: white;
-     }
-     #email{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 57%;
-         color: white;
-     }
-     #phone{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 80%;
-         color: white;
-     }
-     footer p {
-         color: white;
-         position: absolute;
-         top: 252%;
-         left: 3%
-         
-     }
- }
- @media (max-width: 412px) {
-    /*head*/
-     header {
-         position: absolute;
-         left: 20px;
-         top: 1%;
-         width: 100%;
-         height: 100%;
-     }
- 
-     #logo {
-         width: 80px; 
-         top: -5%;
-         left: -10%;
-     }
- 
-    
-     #tablanombre {
-         padding: 1px ;
-     }
- 
-     #foto {
-         width: 120px; 
-         top: -5%;
-         left: 35%;
-     }
- 
-     #nombre {
-         font-size: 1.2em; 
-         left: -2%;
-     }
- 
-     #dienador {
-         font-size: 0.9em; 
-         left: -1%;
-         top: 70%
-     }
- }
-
- @media (max-width: 360px) {
-    /*head*/
-     header {
-         position: absolute;
-         left: 20px;
-         top: 1%;
-         width: 100%;
-         height: 100%;
-     }
- 
-     #logo {
-         width: 80px; 
-     }
- 
-    
-     #tablanombre {
-         padding: 1px ;
-     }
- 
-     #foto {
-         width: 120px; 
-         top: -5%;
-         left: 35%;
-     }
- 
-     #nombre {
-         font-size: 1em; 
-         left: 6%;
-         width: 200%;
-     }
- 
-     #dienador {
-        width: 200%;
-         font-size: 0.9em; 
-         left: -1%;
-         top: 70%
-     }
-     /*quien soy*/
-     #quiensoy {
-         padding: 0 10px;
-         top: -40%;
-         left: 9%;
-         font-size: 1.2em;
-     }
- 
-     /*virtudes */
-
-
-     #porcentagecast{
-        position: relative;
-        left:-30%;
-     }
-     
-     #porcentagecata{
-        position: absolute;
-        left:75%;
-        top: -22%;
-     }
-     #porcentageres{
-        position: absolute;
-        left:80%;
-        top: 40%;
-     }
-     #porcentagepers{
-        position: absolute;
-        left:80%;
-        top: 70%;
-     }
-     #porcentagecaris{
-        position: absolute;
-        left:80%;
-        top: 40%;
-     }
-
-     #porcentagejs{
-        position: absolute;
-        left:75%;
-        top: -21%;
-     }
-
-     #cast span:first-child::after {
-        position: absolute;
-        content: 'CASTE';
-        visibility: visible;
-        display: inline-block;
-        top: 1%;
-        left: 5%;
-    }
-    #cast span:first-child {
-        visibility: hidden;
+    .streetf,
+    .sopa,
+    .dragon,
+    .connecta {
+        width: 35%;
     }
 
-    #cata span:first-child::after {
-        position: absolute;
-        content: 'CAT';
-        visibility: visible;
-        display: inline-block;
-        top: -18%;
-        left: 5%;
-    }
-    #cata span:first-child {
-        visibility: hidden;
+    #boton-street,
+    #boton-connecta5,
+    #boton-dragon,
+    #boton-sopa {
+        left: 2%; /* Ajustar posición de botones */
     }
 
-    #ingl span:first-child::after {
-        position: absolute;
-        content: 'ENG';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #ingl span:first-child {
-        visibility: hidden;
+    .contactos {
+        top: 180%; /* Ajustar posición de la sección de contactos */
     }
 
-    #res span:first-child::after {
-        position: absolute;
-        content: 'RESOL';
-        visibility: visible;
-        display: inline-block;
-        top: 40%;
-        left: 5%;
+    footer p {
+        top: 240%; /* Ajustar posición del texto del footer */
     }
-    #res span:first-child {
-        visibility: hidden;
-    }
-
-    #pers span:first-child::after {
-        position: absolute;
-        content: 'PERS';
-        visibility: visible;
-        display: inline-block;
-        top: 70%;
-        left: 5%;
-    }
-    #pers span:first-child {
-        visibility: hidden;
-    }
-
-    #caris span:first-child::after {
-        position: absolute;
-        content: 'CARIS';
-        visibility: visible;
-        display: inline-block;
-        top: 40%;
-        left: 5%;
-    }
-    #caris span:first-child {
-        visibility: hidden;
-    }
-
-    #html span:first-child::after {
-        position: absolute;
-        content: 'HTML';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #html span:first-child {
-        visibility: hidden;
-    }
-
-    #css span:first-child::after {
-        position: absolute;
-        content: 'CSS';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #css span:first-child {
-        visibility: hidden;
-    }
-
-    #js span:first-child::after {
-        position: absolute;
-        content: 'JS';
-        visibility: visible;
-        display: inline-block;
-        top: -13%;
-        left: 5%;
-    }
-    #js span:first-child {
-        visibility: hidden;
-    }
-
-    #sql span:first-child::after {
-        position: absolute;
-        content: 'SQL';
-        visibility: visible;
-        display: inline-block;
-        top: -1%;
-        left: 5%;
-    }
-    #sql span:first-child {
-        visibility: hidden;
-    }
-
-
-     #tablavirtudes {
-         flex-direction: column;
-         align-items: center;
-         top: 100%;
-         width: 105%;
-         left:0%;
-     }
- 
-     #tablavirtudes td {
-         flex-basis: 90%;
-         margin-bottom: 10px;
-     }
- 
-     #tablavirtudes h1 {
-         font-size: 0.80em; /* Reducir tamaño de los títulos */
-     }
- 
-     /*proyectos*/
-     #proyectos{
-         top: 149%;
-     }
- 
-     .streetf {
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 15%;
-         left: 1%;
-         overflow: hidden; 
-     }
- 
-     .streetf .street2, .sopa .sopal1, .dragon .dragonball, .connecta .connect5 {
-         position: absolute;
-         bottom: 90%;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el texto */
-         color: #fff;
-         text-align: center;
-         border-radius: 10px;
-         font-size: 0.6em;
-     }
- 
-     .streetf .street2 button, .sopa .sopal1 button, .dragon .dragonball button, .connecta .connect5 button {
-         padding: 10px;
-         font-size: 0.8em;
-     }
-     
-     .sopa{
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 15%;
-         left: 60%;
-         overflow: hidden; 
-     }
- 
-     .dragon{
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 40%;
-         left: 1%;
-         overflow: hidden;
-     }
- 
-     .connecta{
-         position: absolute;
-         width: 45%;
-         height: 15%;
-         border-radius: 20%;
-         top: 40%;
-         left: 60%;
-         overflow: hidden;
-     }
-
-     #texto{
-        display: none;
-     }
-
-     #boton-street, #boton-connecta5, #boton-dragon, #boton-sopa{
-        position: absolute;
-        border-radius: 20px;
-        border: solid 1px;
-        color: black;
-        background-color: rgba(187, 180, 180, 0.356);
-        width: 120px;
-        height: 40px;
-        top: 40%;
-        left: 6%
-
-    }
- 
-     /*footer*/
- 
-     .contactos{
-         width: 100%;
-         left: 0%;
-         top:220%;
-     }
-     #logocontacto {
-         width: 80px;
-         height: 110px; 
-         left: 43%;
-     }
- 
- 
-     #github{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 12%;
-         color: white;
-     }
-     #linkedin{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 35%;
-         color: white;
-     }
-     #email{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 57%;
-         color: white;
-     }
-     #phone{
-         position: absolute;
-         font-size: 50px;
-         top: 242%;
-         left: 80%;
-         color: white;
-     }
-     footer p {
-         color: white;
-         position: absolute;
-         top: 252%;
-         left: 3%
-         
-     }
- }
+}
