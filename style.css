@@ -805,13 +805,13 @@ footer p {
 
     #nombre {
         font-size: 1em;
-        left: 14%;
+        left: 11%;
         width: auto;
     }
 
     #dienador {
         font-size: 0.8em;
-        left: 11%;
+        left: 9%;
         top: 70%;
         width: auto;
     }
@@ -875,7 +875,7 @@ footer p {
         visibility: visible;
         display: inline-block;
         top: 1%;
-        left: 1%;
+        left: -10%;
     }
     
     #cast span:first-child {
