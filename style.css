@@ -910,7 +910,7 @@ footer p {
     
     #res span:first-child::after {
         position: absolute;
-        content: 'RESOLUTIVO';
+        content: 'RESOL';
         visibility: visible;
         display: inline-block;
         top: -47%;
@@ -934,7 +934,7 @@ footer p {
     
     #pers span:first-child::after {
         position: absolute;
-        content: 'PERSONALIDAD';
+        content: 'PERSON';
         visibility: visible;
         display: inline-block;
         top: -5%;
@@ -952,7 +952,7 @@ footer p {
     
     #caris span:first-child::after {
         position: absolute;
-        content: 'CARISMA';
+        content: 'CARIS';
         visibility: visible;
         display: inline-block;
         top: 32%;
