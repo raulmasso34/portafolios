@@ -784,7 +784,7 @@ footer p {
 
 /*=================================== RESPONSIVE ===============================*/
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px) {
     header {
         position: absolute;
         left: 20px;
@@ -869,7 +869,7 @@ footer p {
         top: 40%;
         left: 60%;
     }
-  
+
     #cast span:first-child::after {
         position: absolute;
         content: 'CASTE';
@@ -878,16 +878,16 @@ footer p {
         top: -30%;
         left: 6%;
     }
-    #porcentagecast{
+    #porcentagecast {
         position: absolute;
         top: -30%;
         left: 70%;
     }
-    
+
     #cast span:first-child {
         visibility: hidden;
     }
-    
+
     #cata span:first-child::after {
         position: absolute;
         content: 'CAT';
@@ -896,16 +896,16 @@ footer p {
         top: -30%;
         left: 6%;
     }
-    
+
     #cata span:first-child {
         visibility: hidden;
     }
-    #porcentagecata{
+    #porcentagecata {
         position: absolute;
         top: -30%;
         left: 70%;
     }
-    
+
     #ingl span:first-child::after {
         position: absolute;
         content: 'ENG';
@@ -914,16 +914,16 @@ footer p {
         top: -10%;
         left: 6%;
     }
-    
+
     #ingl span:first-child {
         visibility: hidden;
     }
-    #porcentageing{
+    #porcentageing {
         position: absolute;
         top: -10%;
         left: 70%;
     }
-    
+
     #res span:first-child::after {
         position: absolute;
         content: 'RESOL';
@@ -932,22 +932,22 @@ footer p {
         top: -80%;
         left: 6%;
     }
-    
+
     #res span:first-child {
         visibility: hidden;
     }
-    
+
     .menures {
         position: relative;
         top: 16.5%;
     }
-    
+
     #porcentageres {
         position: absolute;
         top: -80%;
         left: 70%;
     }
-    
+
     #pers span:first-child::after {
         position: absolute;
         content: 'PERSON';
@@ -956,7 +956,7 @@ footer p {
         top: -41%;
         left: 5%;
     }
-    
+
     #pers span:first-child {
         visibility: hidden;
     }
@@ -965,12 +965,12 @@ footer p {
         top: -44%;
         left: 70%;
     }
-    
+
     .menupers {
         position: relative;
         top: 36.5%;
     }
-    
+
     #caris span:first-child::after {
         position: absolute;
         content: 'CARIS';
@@ -979,46 +979,46 @@ footer p {
         top: -10%;
         left: 6%;
     }
-    
+
     #caris span:first-child {
         visibility: hidden;
     }
-    
+
     .menucaris {
         position: relative;
         top: 58.5%;
     }
-    
+
     #porcentagecaris {
         position: absolute;
         top: -10%;
         left: 70%;
     }
-    
+
     #html span:first-child::after {
-        position: absolute; 
+        position: absolute;
         content: 'HTML';
         visibility: visible;
         display: inline-block;
         top: 70%;
         left: 6%;
     }
-    
+
     #html span:first-child {
         visibility: hidden;
     }
-    
+
     .menuhtml {
         position: relative;
         top: 20%;
     }
-    
+
     #porcentagehtml {
         position: absolute;
         top: 69%;
         left: 70%;
     }
-    
+
     #css span:first-child::after {
         position: absolute;
         content: 'CSS';
@@ -1027,22 +1027,22 @@ footer p {
         top: 150%;
         left: 6%;
     }
-    
+
     #css span:first-child {
         visibility: hidden;
     }
-    
+
     .menucss {
         position: relative;
         top: 39.5%;
     }
-    
+
     #porcentagecss {
         position: absolute;
         top: 150%;
         left: 70%;
     }
-    
+
     #js span:first-child::after {
         position: absolute;
         content: 'JS';
@@ -1051,22 +1051,22 @@ footer p {
         top: 250%;
         left: 6%;
     }
-    
+
     #js span:first-child {
         visibility: hidden;
     }
-    
+
     .menujs {
         position: relative;
         top: 62%;
     }
-    
+
     #porcentagejs {
         position: absolute;
         top: 250%;
         left: 70%;
     }
-    
+
     #sql span:first-child::after {
         position: absolute;
         content: 'MYSQL';
@@ -1075,16 +1075,16 @@ footer p {
         top: 300%;
         left: 6%;
     }
-    
+
     #sql span:first-child {
         visibility: hidden;
     }
-    
+
     .menusql {
         position: relative;
         top: 78%;
     }
-    
+
     #porcentagesql {
         position: absolute;
         top: 300%;
@@ -1106,7 +1106,7 @@ footer p {
         left: 6%;
     }
 
-    #texto{
+    #texto {
         display: none;
     }
 
@@ -1160,4 +1160,4 @@ footer p {
         top: 272%;
         left: 3%;
     }
-} 
+}
