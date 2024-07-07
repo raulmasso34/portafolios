@@ -824,7 +824,7 @@ footer p {
     #tablavirtudes {
         flex-direction: column;
         align-items: center;
-        top: 115%;
+        top: 117%;
         width: 85%;
         left: 5%;
     }
@@ -839,7 +839,7 @@ footer p {
     }
 
     #proyectos {
-        top: 149%;
+        top: 169%;
     }
 
     .streetf, .sopa, .dragon, .connecta {
