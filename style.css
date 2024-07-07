@@ -825,7 +825,7 @@ footer p {
         flex-direction: column;
         align-items: center;
         top: 117%;
-        width: 85%;
+        width: 87%;
         left: 5%;
     }
 
@@ -885,6 +885,10 @@ footer p {
         left: 6%;
     }
 
+    #texto{
+        display: none;
+    }
+
     .contactos {
         width: 100%;
         left: 0%;
@@ -900,7 +904,7 @@ footer p {
     #github {
         position: absolute;
         font-size: 50px;
-        top: 242%;
+        top: 262%;
         left: 12%;
         color: white;
     }
@@ -908,7 +912,7 @@ footer p {
     #linkedin {
         position: absolute;
         font-size: 50px;
-        top: 242%;
+        top: 262%;
         left: 35%;
         color: white;
     }
@@ -916,7 +920,7 @@ footer p {
     #email {
         position: absolute;
         font-size: 50px;
-        top: 242%;
+        top: 262%;
         left: 57%;
         color: white;
     }
@@ -924,7 +928,7 @@ footer p {
     #phone {
         position: absolute;
         font-size: 50px;
-        top: 242%;
+        top: 262%;
         left: 80%;
         color: white;
     }
@@ -932,7 +936,7 @@ footer p {
     footer p {
         color: white;
         position: absolute;
-        top: 252%;
+        top: 272%;
         left: 3%;
     }
 } 
