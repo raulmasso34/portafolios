@@ -785,160 +785,247 @@ footer p {
 /*=================================== RESPONSIVE ===============================*/
 
 @media (max-width: 600px) {
-    /* Estilos para smartphones grandes (720x1280 px) */
+
+    body {
+        margin: 0;
+        padding: 0;
+      
+    }
 
     header {
-        position: absolute;
-        left: 20px;
-        top: 1%;
-        width: 100%;
-        height: 100%;
+        left: 10px; 
     }
 
-    #logo {
-        width: 80px;
-    }
-
-    #foto {
+    #logo{
         width: 120px;
-        top: -5%;
-        left: 35%;
+        height: 150px;
+        left: 160px;
     }
-
+    #foto{
+        width: 150px;
+        left:150px;
+    }
     #nombre {
-        font-size: 1.2em;
-        left: 3%;
-        width: 200%;
+        font-size: 2em; 
+        left:60px;
+        text-align: center;
     }
 
     #dienador {
-        font-size: 0.9em;
-        left: 3%;
-        top: 70%;
-        width: 200%;
+        font-size: 1.7em; 
+        left: 50px; 
+        text-align: center; 
+        top: 91%; 
     }
+
+
 
     #quiensoy {
-        padding: 0 10px;
-        top: -40%;
-        left: 9%;
-        width: 100%;
-        font-size: 1.3em;
+        top: 55%; 
+        left: 5%;
+        font-size: 1.3em; 
+        
     }
 
-    #tablavirtudes {
-        flex-direction: column;
-        align-items: center;
-        top: 100%;
-        width: 100%;
-        left: 0%;
-    }
 
-    #tablavirtudes td {
-        flex-basis: 90%;
-        margin-bottom: 10px;
+    #tablavirtudes{
+        top:105%;
+        width: 90%;
+        left: 28px;
     }
-
-    #tablavirtudes h1 {
-        font-size: 0.99em;
+    
+    section h1{
+        font-size: 1.2em;
     }
-
-    #proyectos {
-        top: 149%;
-    }
-
-    .streetf, .sopa, .dragon, .connecta {
-        position: absolute;
-        width: 45%;
-        height: 15%;
-        border-radius: 20%;
-        overflow: hidden;
-    }
-
-    .streetf {
-        top: 15%;
-        left: 1%;
-    }
-
-    .sopa {
-        top: 15%;
-        left: 60%;
-    }
-
-    .dragon {
-        top: 40%;
-        left: 1%;
-    }
-
-    .connecta {
-        top: 40%;
-        left: 60%;
-    }
-
-    #boton-street,
-    #boton-connecta5,
-    #boton-dragon,
-    #boton-sopa {
-        position: absolute;
-        border-radius: 20px;
-        border: solid 1px;
-        color: black;
-        background-color: rgba(187, 180, 180, 0.356);
-        width: 120px;
-        height: 40px;
-        top: 40%;
-        left: 6%;
-    }
-
-    .contactos {
-        width: 100%;
-        left: 0%;
-        top: 220%;
-    }
-
-    #logocontacto {
-        width: 80px;
-        height: 110px;
-        left: 43%;
-    }
-
-    #github {
-        position: absolute;
-        font-size: 50px;
-        top: 242%;
-        left: 12%;
-        color: white;
-    }
-
-    #linkedin {
-        position: absolute;
-        font-size: 50px;
-        top: 242%;
-        left: 35%;
-        color: white;
-    }
-
-    #email {
-        position: absolute;
-        font-size: 50px;
-        top: 242%;
-        left: 57%;
-        color: white;
-    }
-
-    #phone {
-        position: absolute;
-        font-size: 50px;
-        top: 242%;
-        left: 80%;
-        color: white;
-    }
-
-    footer p {
-        color: white;
-        position: absolute;
-        top: 252%;
-        left: 3%;
-    }
-}
  
+    #cast span:first-child::after {
+        position: absolute;
+        content: 'CASTE';
+        visibility: visible;
+        display: inline-block;
+        top: 1%;
+        left:6%;
+    }
+    #cast span:first-child {
+        visibility: hidden;
+    }
+
+    #cata span:first-child::after {
+        position: absolute;
+        content: 'CAT';
+        visibility: visible;
+        display: inline-block;
+        top: 1%;
+        left:6%;
+    }
+    #cata span:first-child {
+        visibility: hidden;
+    }
+
+    #ingl span:first-child::after {
+        position: absolute;
+        content: 'ENG';
+        visibility: visible;
+        display: inline-block;
+        top: 29%;
+        left:6%;
+    }
+    #ingl span:first-child {
+        visibility: hidden;
+    }
+    #porcentageing{
+        position: absolute;
+        top: 29%;
+        left: 84%
+    }
+
+    #res span:first-child::after {
+        position: absolute;
+        content: 'RESOLUTIVO';
+        visibility: visible;
+        display: inline-block;
+        top: -47%;
+        left:6%;
+    }
+    #res span:first-child {
+        visibility: hidden;
+    }
+    .menures{
+        position: relative;
+        top: 14.5%;
+    
+    }
+    #porcentageres{
+        position: absolute;
+        top: -47%;
+        left: 84%
+    }
+
+    #pers span:first-child::after {
+        position: absolute;
+        content: 'PERSONALIDAD';
+        visibility: visible;
+        display: inline-block;
+        top: -5%;
+        left:6%;
+    }
+    #pers span:first-child {
+        visibility: hidden;
+    }
+    .menupers{
+        position: relative;
+        top: 34.2%;
+    
+    }
+    
+    #caris span:first-child::after {
+        position: absolute;
+        content: 'CARISMA';
+        visibility: visible;
+        display: inline-block;
+        top: 32%;
+        left:6%;
+    }
+    #caris span:first-child {
+        visibility: hidden;
+    }
+    .menucaris{
+        position: relative;
+        top: 56.5%;
+    
+    }
+    #porcentagecaris{
+        position: absolute;
+        top: 32%;
+        left: 84%
+    }
+    #html span:first-child::after {
+        position: absolute; 
+        content: 'HTML';
+        visibility: visible;
+        display: inline-block;
+        top: 129%;
+        left:6%;
+    }
+    #html span:first-child {
+        visibility: hidden;
+    }
+    
+    .menuhtml{
+        position: relative;
+        top: 20%;
+    
+    }
+    #porcentagehtml{
+        position: absolute;
+        top: 129%;
+        left: 84%
+    }
+    #css span:first-child::after {
+        position: absolute;
+        content: 'CSS';
+        visibility: visible;
+        display: inline-block;
+        top: 239%;
+        left:6%;
+    }
+    #css span:first-child {
+        visibility: hidden;
+    }
+
+    .menucss{
+        position: relative;
+        top: 39.5%;
+    
+    }
+
+    #porcentagecss{
+        position: absolute;
+        top:239%;
+        left: 84%
+    }
+
+    #js span:first-child::after {
+        position: absolute;
+        content: 'JS';
+        visibility: visible;
+        display: inline-block;
+        top: 350%;
+        left:6%;
+    }
+    #js span:first-child {
+        visibility: hidden;
+    }
+    .menujs{
+        position: relative;
+        top: 62%;
+    
+    }
+    #porcentagejs{
+        position: absolute;
+        top:350%;
+        left: 84%
+    }
+    #sql span:first-child::after {
+        position: absolute;
+        content: 'MYSQL';
+        visibility: visible;
+        display: inline-block;
+        top: 389%;
+        left:6%;
+    }
+    #sql span:first-child {
+        visibility: hidden;
+    }
+    .menusql{
+        position: relative;
+        top: 78%;
+    
+    }
+    #porcentagesql{
+        position: absolute;
+        top:389%;
+        left: 84%;
+    }
+    
+}
