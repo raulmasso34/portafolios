@@ -822,7 +822,6 @@ footer p {
         padding: 0 10px;
         top: -40%;
         left: 9%;
-        font-size: 1.5em;
     }
 
     #tablavirtudes {
@@ -955,11 +954,159 @@ footer p {
 
     #quiensoy {
         top: -35%;
+        font-size: 1.1em;
     }
 
-    #porcentagecata,
-    #porcentagecaris {
-        display: none; /* Ocultar elementos específicos para este tamaño */
+    #porcentagecast{
+        position: relative;
+        left:-30%;
+     }
+     
+     #porcentagecata{
+        position: absolute;
+        left:75%;
+        top: -22%;
+     }
+     #porcentageres{
+        position: absolute;
+        left:80%;
+        top: 40%;
+     }
+     #porcentagepers{
+        position: absolute;
+        left:80%;
+        top: 70%;
+     }
+     #porcentagecaris{
+        position: absolute;
+        left:80%;
+        top: 40%;
+     }
+
+     #porcentagejs{
+        position: absolute;
+        left:75%;
+        top: -21%;
+     }
+
+     #cast span:first-child::after {
+        position: absolute;
+        content: 'CASTE';
+        visibility: visible;
+        display: inline-block;
+        top: 1%;
+        left: 5%;
+    }
+    #cast span:first-child {
+        visibility: hidden;
+    }
+
+    #cata span:first-child::after {
+        position: absolute;
+        content: 'CAT';
+        visibility: visible;
+        display: inline-block;
+        top: -18%;
+        left: 5%;
+    }
+    #cata span:first-child {
+        visibility: hidden;
+    }
+
+    #ingl span:first-child::after {
+        position: absolute;
+        content: 'ENG';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #ingl span:first-child {
+        visibility: hidden;
+    }
+
+    #res span:first-child::after {
+        position: absolute;
+        content: 'RESOL';
+        visibility: visible;
+        display: inline-block;
+        top: 40%;
+        left: 5%;
+    }
+    #res span:first-child {
+        visibility: hidden;
+    }
+
+    #pers span:first-child::after {
+        position: absolute;
+        content: 'PERS';
+        visibility: visible;
+        display: inline-block;
+        top: 70%;
+        left: 5%;
+    }
+    #pers span:first-child {
+        visibility: hidden;
+    }
+
+    #caris span:first-child::after {
+        position: absolute;
+        content: 'CARIS';
+        visibility: visible;
+        display: inline-block;
+        top: 40%;
+        left: 5%;
+    }
+    #caris span:first-child {
+        visibility: hidden;
+    }
+
+    #html span:first-child::after {
+        position: absolute;
+        content: 'HTML';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #html span:first-child {
+        visibility: hidden;
+    }
+
+    #css span:first-child::after {
+        position: absolute;
+        content: 'CSS';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #css span:first-child {
+        visibility: hidden;
+    }
+
+    #js span:first-child::after {
+        position: absolute;
+        content: 'JS';
+        visibility: visible;
+        display: inline-block;
+        top: -13%;
+        left: 5%;
+    }
+    #js span:first-child {
+        visibility: hidden;
+    }
+
+    #sql span:first-child::after {
+        position: absolute;
+        content: 'SQL';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #sql span:first-child {
+        visibility: hidden;
     }
 
     .streetf,
@@ -974,10 +1121,59 @@ footer p {
     #boton-dragon,
     #boton-sopa {
         left: 3%; /* Ajustar posición de botones */
+        width: 95%;
+        height: 25%;
+    }
+#texto{
+    display: none;
+}
+    .contactos{
+        width: 100%;
+        left: 0%;
+        top:220%;
+    position: absolute;
+    }
+    #logocontacto {
+        width: 80px;
+        height: 110px; 
+        left: 43%;
     }
 
-    .contactos {
-        top: 200%; /* Ajustar posición de la sección de contactos */
+
+    #github{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 12%;
+        color: white;
+    }
+    #linkedin{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 35%;
+        color: white;
+    }
+    #email{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 57%;
+        color: white;
+    }
+    #phone{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 80%;
+        color: white;
+    }
+    footer p {
+        color: white;
+        position: absolute;
+        top: 252%;
+        left: 3%
+        
     }
 }
 
@@ -1015,12 +1211,53 @@ footer p {
         left: 2%; /* Ajustar posición de botones */
     }
 
-    .contactos {
-        top: 180%; /* Ajustar posición de la sección de contactos */
+    .contactos{
+        width: 100%;
+        left: 0%;
+        top:300%;
+    position: absolute;
+    }
+    #logocontacto {
+        width: 80px;
+        height: 110px; 
+        left: 43%;
     }
 
+
+    #github{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 12%;
+        color: white;
+    }
+    #linkedin{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 35%;
+        color: white;
+    }
+    #email{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 57%;
+        color: white;
+    }
+    #phone{
+        position: absolute;
+        font-size: 50px;
+        top: 242%;
+        left: 80%;
+        color: white;
+    }
     footer p {
-        top: 240%; /* Ajustar posición del texto del footer */
+        color: white;
+        position: absolute;
+        top: 252%;
+        left: 3%
+        
     }
 }
  
