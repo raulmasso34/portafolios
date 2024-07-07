@@ -869,6 +869,206 @@ footer p {
         top: 40%;
         left: 60%;
     }
+    #cast span:first-child::after {
+        position: absolute;
+        content: 'CASTE';
+        visibility: visible;
+        display: inline-block;
+        top: 1%;
+        left: 6%;
+    }
+    
+    #cast span:first-child {
+        visibility: hidden;
+    }
+    
+    #cata span:first-child::after {
+        position: absolute;
+        content: 'CAT';
+        visibility: visible;
+        display: inline-block;
+        top: 1%;
+        left: 6%;
+    }
+    
+    #cata span:first-child {
+        visibility: hidden;
+    }
+    
+    #ingl span:first-child::after {
+        position: absolute;
+        content: 'ENG';
+        visibility: visible;
+        display: inline-block;
+        top: 29%;
+        left: 6%;
+    }
+    
+    #ingl span:first-child {
+        visibility: hidden;
+    }
+    
+    #res span:first-child::after {
+        position: absolute;
+        content: 'RESOLUTIVO';
+        visibility: visible;
+        display: inline-block;
+        top: -47%;
+        left: 6%;
+    }
+    
+    #res span:first-child {
+        visibility: hidden;
+    }
+    
+    .menures {
+        position: relative;
+        top: 14.5%;
+    }
+    
+    #porcentageres {
+        position: absolute;
+        top: -47%;
+        left: 84%;
+    }
+    
+    #pers span:first-child::after {
+        position: absolute;
+        content: 'PERSONALIDAD';
+        visibility: visible;
+        display: inline-block;
+        top: -5%;
+        left: 6%;
+    }
+    
+    #pers span:first-child {
+        visibility: hidden;
+    }
+    
+    .menupers {
+        position: relative;
+        top: 34.2%;
+    }
+    
+    #caris span:first-child::after {
+        position: absolute;
+        content: 'CARISMA';
+        visibility: visible;
+        display: inline-block;
+        top: 32%;
+        left: 6%;
+    }
+    
+    #caris span:first-child {
+        visibility: hidden;
+    }
+    
+    .menucaris {
+        position: relative;
+        top: 56.5%;
+    }
+    
+    #porcentagecaris {
+        position: absolute;
+        top: 32%;
+        left: 84%;
+    }
+    
+    #html span:first-child::after {
+        position: absolute; 
+        content: 'HTML';
+        visibility: visible;
+        display: inline-block;
+        top: 129%;
+        left: 6%;
+    }
+    
+    #html span:first-child {
+        visibility: hidden;
+    }
+    
+    .menuhtml {
+        position: relative;
+        top: 20%;
+    }
+    
+    #porcentagehtml {
+        position: absolute;
+        top: 129%;
+        left: 84%;
+    }
+    
+    #css span:first-child::after {
+        position: absolute;
+        content: 'CSS';
+        visibility: visible;
+        display: inline-block;
+        top: 239%;
+        left: 6%;
+    }
+    
+    #css span:first-child {
+        visibility: hidden;
+    }
+    
+    .menucss {
+        position: relative;
+        top: 39.5%;
+    }
+    
+    #porcentagecss {
+        position: absolute;
+        top: 239%;
+        left: 84%;
+    }
+    
+    #js span:first-child::after {
+        position: absolute;
+        content: 'JS';
+        visibility: visible;
+        display: inline-block;
+        top: 350%;
+        left: 6%;
+    }
+    
+    #js span:first-child {
+        visibility: hidden;
+    }
+    
+    .menujs {
+        position: relative;
+        top: 62%;
+    }
+    
+    #porcentagejs {
+        position: absolute;
+        top: 350%;
+        left: 84%;
+    }
+    
+    #sql span:first-child::after {
+        position: absolute;
+        content: 'MYSQL';
+        visibility: visible;
+        display: inline-block;
+        top: 389%;
+        left: 6%;
+    }
+    
+    #sql span:first-child {
+        visibility: hidden;
+    }
+    
+    .menusql {
+        position: relative;
+        top: 78%;
+    }
+    
+    #porcentagesql {
+        position: absolute;
+        top: 389%;
+        left: 84%;
+    }
 
     #boton-street,
     #boton-connecta5,
