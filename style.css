@@ -784,7 +784,7 @@ footer p {
 
 /*=================================== RESPONSIVE ===============================*/
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     /* Estilos para smartphones grandes (720x1280 px) */
 
     header {
