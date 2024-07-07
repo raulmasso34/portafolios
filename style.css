@@ -793,27 +793,27 @@ footer p {
     }
 
     header {
-        left: 10px; 
+        left: 10%; 
     }
 
     #logo{
-        width: 120px;
-        height: 150px;
+        width: 30%;
+        height: 80%;
         left: 160px;
     }
     #foto{
-        width: 150px;
-        left:150px;
+        width: 50%;
+        left:30%;
     }
     #nombre {
         font-size: 2em; 
-        left:60px;
+        left:10%;
         text-align: center;
     }
 
     #dienador {
         font-size: 1.7em; 
-        left: 50px; 
+        left: 10%; 
         text-align: center; 
         top: 91%; 
     }
@@ -831,7 +831,7 @@ footer p {
     #tablavirtudes{
         top:105%;
         width: 90%;
-        left: 28px;
+        left: 5%;
     }
     
     section h1{
