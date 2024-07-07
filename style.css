@@ -808,12 +808,14 @@ footer p {
     #nombre {
         font-size: 1.2em;
         left: 3%;
+        width: 200%;
     }
 
     #dienador {
         font-size: 0.9em;
         left: 3%;
         top: 70%;
+        width: 200%;
     }
 
     #quiensoy {
@@ -1020,3 +1022,4 @@ footer p {
         top: 240%; /* Ajustar posición del texto del footer */
     }
 }
+ 
