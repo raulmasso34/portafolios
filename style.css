@@ -822,6 +822,8 @@ footer p {
         padding: 0 10px;
         top: -40%;
         left: 9%;
+        width: 100%;
+        font-size: 1.3em;
     }
 
     #tablavirtudes {
