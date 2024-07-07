@@ -1178,43 +1178,196 @@ footer p {
 }
 
 @media (max-width: 360px) {
-    /* Estilos para móviles pequeños (360x640 px) */
+     /* Estilos para móviles medianos (375x667 px) */
 
-    header {
-        left: 10px;
+     header {
+        left: 15px;
     }
 
     #foto {
-        width: 90px;
-        left: 25%;
+        width: 100px;
+        left: 30%;
     }
 
     #quiensoy {
-        top: -30%;
+        top: -35%;
+        font-size: 1.1em;
     }
 
-    #proyectos {
-        top: 130%; /* Ajustar posición de la sección de proyectos */
+    #porcentagecast{
+        position: relative;
+        left:-30%;
+     }
+     
+     #porcentagecata{
+        position: absolute;
+        left:75%;
+        top: -22%;
+     }
+     #porcentageres{
+        position: absolute;
+        left:80%;
+        top: 40%;
+     }
+     #porcentagepers{
+        position: absolute;
+        left:80%;
+        top: 70%;
+     }
+     #porcentagecaris{
+        position: absolute;
+        left:80%;
+        top: 40%;
+     }
+
+     #porcentagejs{
+        position: absolute;
+        left:75%;
+        top: -21%;
+     }
+
+     #cast span:first-child::after {
+        position: absolute;
+        content: 'CASTE';
+        visibility: visible;
+        display: inline-block;
+        top: 1%;
+        left: 5%;
+    }
+    #cast span:first-child {
+        visibility: hidden;
+    }
+
+    #cata span:first-child::after {
+        position: absolute;
+        content: 'CAT';
+        visibility: visible;
+        display: inline-block;
+        top: -18%;
+        left: 5%;
+    }
+    #cata span:first-child {
+        visibility: hidden;
+    }
+
+    #ingl span:first-child::after {
+        position: absolute;
+        content: 'ENG';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #ingl span:first-child {
+        visibility: hidden;
+    }
+
+    #res span:first-child::after {
+        position: absolute;
+        content: 'RESOL';
+        visibility: visible;
+        display: inline-block;
+        top: 40%;
+        left: 5%;
+    }
+    #res span:first-child {
+        visibility: hidden;
+    }
+
+    #pers span:first-child::after {
+        position: absolute;
+        content: 'PERS';
+        visibility: visible;
+        display: inline-block;
+        top: 70%;
+        left: 5%;
+    }
+    #pers span:first-child {
+        visibility: hidden;
+    }
+
+    #caris span:first-child::after {
+        position: absolute;
+        content: 'CARIS';
+        visibility: visible;
+        display: inline-block;
+        top: 40%;
+        left: 5%;
+    }
+    #caris span:first-child {
+        visibility: hidden;
+    }
+
+    #html span:first-child::after {
+        position: absolute;
+        content: 'HTML';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #html span:first-child {
+        visibility: hidden;
+    }
+
+    #css span:first-child::after {
+        position: absolute;
+        content: 'CSS';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #css span:first-child {
+        visibility: hidden;
+    }
+
+    #js span:first-child::after {
+        position: absolute;
+        content: 'JS';
+        visibility: visible;
+        display: inline-block;
+        top: -13%;
+        left: 5%;
+    }
+    #js span:first-child {
+        visibility: hidden;
+    }
+
+    #sql span:first-child::after {
+        position: absolute;
+        content: 'SQL';
+        visibility: visible;
+        display: inline-block;
+        top: -1%;
+        left: 5%;
+    }
+    #sql span:first-child {
+        visibility: hidden;
     }
 
     .streetf,
     .sopa,
     .dragon,
     .connecta {
-        width: 35%;
+        width: 40%;
     }
 
     #boton-street,
     #boton-connecta5,
     #boton-dragon,
     #boton-sopa {
-        left: 2%; /* Ajustar posición de botones */
+        left: 3%; /* Ajustar posición de botones */
+        width: 95%;
+        height: 25%;
     }
-
+#texto{
+    display: none;
+}
     .contactos{
         width: 100%;
         left: 0%;
-        top:300%;
+        top:220%;
     position: absolute;
     }
     #logocontacto {
