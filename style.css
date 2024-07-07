@@ -811,7 +811,7 @@ footer p {
 
     #dienador {
         font-size: 0.8em;
-        left: 9%;
+        left: 7%;
         top: 70%;
         width: auto;
     }
@@ -869,13 +869,18 @@ footer p {
         top: 40%;
         left: 60%;
     }
+    #porcentagecast{
+        position: absolute;
+        top: 1%;
+        left: 84%;
+    }
     #cast span:first-child::after {
         position: absolute;
         content: 'CASTE';
         visibility: visible;
         display: inline-block;
         top: 1%;
-        left: -40%;
+        left: 6%;
     }
     
     #cast span:first-child {
@@ -888,7 +893,7 @@ footer p {
         visibility: visible;
         display: inline-block;
         top: 1%;
-        left: 1%;
+        left: 6%;
     }
     
     #cata span:first-child {
@@ -901,7 +906,7 @@ footer p {
         visibility: visible;
         display: inline-block;
         top: 29%;
-        left: 1%;
+        left: 6%;
     }
     
     #ingl span:first-child {
@@ -914,7 +919,7 @@ footer p {
         visibility: visible;
         display: inline-block;
         top: -47%;
-        left: 1%;
+        left: 6%;
     }
     
     #res span:first-child {
@@ -956,7 +961,7 @@ footer p {
         visibility: visible;
         display: inline-block;
         top: 32%;
-        left: 1%;
+        left: 6%;
     }
     
     #caris span:first-child {
