@@ -805,7 +805,7 @@ footer p {
 
     #nombre {
         font-size: 1em;
-        left: 11%;
+        left: 8%;
         width: auto;
     }
 
@@ -875,7 +875,7 @@ footer p {
         visibility: visible;
         display: inline-block;
         top: 1%;
-        left: -10%;
+        left: -40%;
     }
     
     #cast span:first-child {
