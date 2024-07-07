@@ -811,7 +811,7 @@ footer p {
 
     #dienador {
         font-size: 0.8em;
-        left: 7%;
+        left: 5%;
         top: 70%;
         width: auto;
     }
@@ -835,7 +835,7 @@ footer p {
     }
 
     #tablavirtudes h1 {
-        font-size: 0.99em;
+        font-size: 0.69em;
     }
 
     #proyectos {
@@ -869,18 +869,19 @@ footer p {
         top: 40%;
         left: 60%;
     }
-    #porcentagecast{
-        position: absolute;
-        top: 1%;
-        left: 84%;
-    }
+  
     #cast span:first-child::after {
         position: absolute;
         content: 'CASTE';
         visibility: visible;
         display: inline-block;
-        top: 1%;
+        top: -30%;
         left: 6%;
+    }
+    #porcentagecast{
+        position: absolute;
+        top: -30%;
+        left: 70%;
     }
     
     #cast span:first-child {
@@ -892,12 +893,17 @@ footer p {
         content: 'CAT';
         visibility: visible;
         display: inline-block;
-        top: 1%;
+        top: -30%;
         left: 6%;
     }
     
     #cata span:first-child {
         visibility: hidden;
+    }
+    #porcentagecata{
+        position: absolute;
+        top: -30%;
+        left: 70%;
     }
     
     #ingl span:first-child::after {
@@ -905,12 +911,17 @@ footer p {
         content: 'ENG';
         visibility: visible;
         display: inline-block;
-        top: 29%;
+        top: -10%;
         left: 6%;
     }
     
     #ingl span:first-child {
         visibility: hidden;
+    }
+    #porcentageing{
+        position: absolute;
+        top: -10%;
+        left: 70%;
     }
     
     #res span:first-child::after {
@@ -918,7 +929,7 @@ footer p {
         content: 'RESOL';
         visibility: visible;
         display: inline-block;
-        top: -47%;
+        top: -80%;
         left: 6%;
     }
     
@@ -928,13 +939,13 @@ footer p {
     
     .menures {
         position: relative;
-        top: 14.5%;
+        top: 16.5%;
     }
     
     #porcentageres {
         position: absolute;
-        top: -47%;
-        left: 84%;
+        top: -80%;
+        left: 70%;
     }
     
     #pers span:first-child::after {
@@ -942,17 +953,22 @@ footer p {
         content: 'PERSON';
         visibility: visible;
         display: inline-block;
-        top: -5%;
-        left: 1%;
+        top: -41%;
+        left: 5%;
     }
     
     #pers span:first-child {
         visibility: hidden;
     }
+    #porcentagepers {
+        position: absolute;
+        top: -44%;
+        left: 70%;
+    }
     
     .menupers {
         position: relative;
-        top: 34.2%;
+        top: 36.5%;
     }
     
     #caris span:first-child::after {
@@ -960,7 +976,7 @@ footer p {
         content: 'CARIS';
         visibility: visible;
         display: inline-block;
-        top: 32%;
+        top: -10%;
         left: 6%;
     }
     
@@ -970,13 +986,13 @@ footer p {
     
     .menucaris {
         position: relative;
-        top: 56.5%;
+        top: 58.5%;
     }
     
     #porcentagecaris {
         position: absolute;
-        top: 32%;
-        left: 84%;
+        top: -10%;
+        left: 70%;
     }
     
     #html span:first-child::after {
@@ -984,8 +1000,8 @@ footer p {
         content: 'HTML';
         visibility: visible;
         display: inline-block;
-        top: 129%;
-        left: 1%;
+        top: 70%;
+        left: 6%;
     }
     
     #html span:first-child {
@@ -999,8 +1015,8 @@ footer p {
     
     #porcentagehtml {
         position: absolute;
-        top: 129%;
-        left: 84%;
+        top: 69%;
+        left: 70%;
     }
     
     #css span:first-child::after {
@@ -1008,8 +1024,8 @@ footer p {
         content: 'CSS';
         visibility: visible;
         display: inline-block;
-        top: 239%;
-        left: 1%;
+        top: 150%;
+        left: 6%;
     }
     
     #css span:first-child {
@@ -1023,8 +1039,8 @@ footer p {
     
     #porcentagecss {
         position: absolute;
-        top: 239%;
-        left: 84%;
+        top: 150%;
+        left: 70%;
     }
     
     #js span:first-child::after {
@@ -1032,8 +1048,8 @@ footer p {
         content: 'JS';
         visibility: visible;
         display: inline-block;
-        top: 350%;
-        left: 1%;
+        top: 250%;
+        left: 6%;
     }
     
     #js span:first-child {
@@ -1047,8 +1063,8 @@ footer p {
     
     #porcentagejs {
         position: absolute;
-        top: 350%;
-        left: 84%;
+        top: 250%;
+        left: 70%;
     }
     
     #sql span:first-child::after {
@@ -1056,8 +1072,8 @@ footer p {
         content: 'MYSQL';
         visibility: visible;
         display: inline-block;
-        top: 389%;
-        left: 1%;
+        top: 300%;
+        left: 6%;
     }
     
     #sql span:first-child {
@@ -1071,8 +1087,8 @@ footer p {
     
     #porcentagesql {
         position: absolute;
-        top: 389%;
-        left: 84%;
+        top: 300%;
+        left: 70%;
     }
 
     #boton-street,
