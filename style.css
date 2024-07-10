@@ -690,7 +690,7 @@ footer p {
     #proyectos {
         position: relative;
         margin-top: 1100px;
-        margin-left: 0px;
+        margin-left: -15px;
     }
 
     .streetf, .sopa, .dragon, .connecta {
