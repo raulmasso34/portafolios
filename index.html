@@ -1,220 +1,398 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Mi Portafolios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Raúl Manuel Massó Dueñas - Desarrollador de Aplicaciones Web">
+    <title>Raúl Massó | Desarrollador Web</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0b096b5b6f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="profile">
+                <img src="img/foto.jpg" alt="Raúl Manuel Massó Dueñas" class="profile-img">
+                <h1 class="name">RAÚL MANUEL MASSÓ DUEÑAS</h1>
+                <h2 class="title">DESARROLLADOR DE APLICACIONES WEB</h2>
+            </div>
+        </div>
+    </header>
 
-<!------------------------------------ LOGO ------------------------------------>
-    <section>
-        <table id="tablanombre">
-            <td>
-                <img src="img/foto.jpg" alt="foto" id="foto">
-                <p id="nombre">RAUL MANUEL MASSÓ DUEÑAS</p>
-                <p id="dienador">DESARROLLADOR DE APLICACIONES WEB</p>
-             </td> 
-        </table>
-    </section>
-<!----------------------------------- QUIEN SOY --------------------------------->
-    <section>
-        <table id="tablaquiensoy">
-            <td>
-            <p id="quiensoy">
-                Soy un persona con ganas de entrar en el mundo laboral.
-                Me esfuerzo por cumplir los objetivos que se me asignan en calidad y plazo, 
-                valoro la responsabilidad y el respeto hacia los demás, el trabajo en equipo 
-                y me gusta innovar en todo lo que hago.
+    <section class="about section">
+        <div class="container">
+            <p class="about-text">
+                Soy una persona con muchas ganas de crecer profesionalmente en el mundo del desarrollo, ya sea web o móvil. Me esfuerzo por cumplir los objetivos que se me asignan con calidad y en el plazo establecido, valorando siempre la responsabilidad, el respeto y el trabajo en equipo. Me gusta innovar en todo lo que hago y aprender continuamente.
+                <br><br>
+                Me motiva trabajar en entornos bien organizados, donde los objetivos estén claros y exista una buena planificación. Estoy buscando una oportunidad donde pueda seguir desarrollando mis habilidades, aportar valor al equipo y crecer profesionalmente.
             </p>          
-            </td> 
-        </table>
+        </div>
     </section>
-<!------------------------------------ VIRTUDES --------------------------------->
 
-    <section>
-        <table id="tablavirtudes">
-            <td id="tdvirtudes1" style="color: white;">
-                <CENTER><h1 style="color: white;" id="idiomas">IDIOMAS</h1></CENTER>
-                    <div id="cast" >
-                        <span>CASTELLANO</span>
-                        <span id="porcentagecast">100%</span>
+    <section class="skills section">
+        <div class="container skills-container">
+            <div class="skill-card">
+                <h2 class="skill-title">COMPETENCIA LINGÜÍSTICA</h2>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CASTELLANO</span>
+                        <span class="skill-percentage">100%</span>
                     </div>
-                    <div class="menucast">
-                        <div id="castellano"></div>
+                    <div class="progress-bar">
+                        <div class="progress" id="castellano"></div>
                     </div>
-                    <div id="cata">
-                        <span>CATALAN</span>
-                        <span id="porcentagecata">90%</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CATALÁN</span>
+                        <span class="skill-percentage">90%</span>
                     </div>
-                    <div class="menucat">
-                        <div id="catalan"></div>
+                    <div class="progress-bar">
+                        <div class="progress" id="catalan"></div>
                     </div>
-                    <div id="ingl">
-                        <span>INGL&#201;S</span>
-                        <span id="porcentageing">30%</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">INGLÉS</span>
+                        <span class="skill-percentage">30%</span>
                     </div>
-                    <div class="menuing">
-                        <div id="ingles"></div>
+                    <div class="progress-bar">
+                        <div class="progress" id="ingles"></div>
                     </div>
-                  
-            </td>
-            <td id="tdvirtudes2" style="color: white;">
-                <CENTER><h1 style="color: white;" id="personales">COMPETENCIAS PERSONALES</h1></CENTER>
-                <div id="res">
-                    <span>RESOLUTIVO</span>
-                    <span id="porcentageres">70%</span>
                 </div>
-                <div class="menures">
-                    <div id="resolutivo"></div>
+            </div>
+            
+            <div class="skill-card">
+                <h2 class="skill-title">COMPETENCIAS TRANSLINGÜÍSTICAS</h2>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">RESOLUTIVO</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="resolutivo"></div>
+                    </div>
                 </div>
-                <div id="pers">
-                    <span>PERSERVERANTE</span>
-                    <span id="porcentagepers">90%</span>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">PERSEVERANTE</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="perseverante"></div>
+                    </div>
                 </div>
-                <div class="menupers">
-                    <div id="perseverante"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CARISMÁTICO</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="carismatico"></div>
+                    </div>
                 </div>
-                <div id="caris">
-                    <span>CARISMATICO</span>
-                    <span id="porcentagecaris">80%</span>
+            </div>
+            
+            <div class="skill-card">
+                <h2 class="skill-title">COMPETENCIAS TIC/TECNOLÓGICAS</h2>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">SCRIPTCASE</span>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="scriptcase"></div>
+                    </div>
                 </div>
-                <div class="menucaris">
-                    <div id="carismatico"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">ANDROID STUDIO</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="androidstudio"></div>
+                    </div>
                 </div>
-            </td>
-
-            <td id="tdvirtudes3" style="color: white;">
-                <CENTER><h1 style="color: white;" id="conocimiento">CONOCIMIENTOS</h1></CENTER>
-                <div id="html">
-                    <span>HTML</span>
-                    <span id="porcentagehtml">80%</span>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">JAVA</span>
+                        <span class="skill-percentage">30%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="java"></div>
+                    </div>
                 </div>
-                <div class="menuhtml">
-                    <div id="html5"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">PHP</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="php"></div>
+                    </div>
                 </div>
-                <div id="css">
-                    <span>CSS</span>
-                    <span id="porcentagecss">60%</span>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">XCODE</span>
+                        <span class="skill-percentage">20%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="xcode"></div>
+                    </div>
                 </div>
-                <div class="menucss">
-                    <div id="css4"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">SWIFT</span>
+                        <span class="skill-percentage">10%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="swift"></div>
+                    </div>
                 </div>
-                <div id="js">
-                    <span>JAVASCRIPT</span>
-                    <span id="porcentagejs">30%</span>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">WORDPRESS</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="wordpress"></div>
+                    </div>
                 </div>
-                <div class="menujs">
-                    <div id="javascript"></div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">JAVASCRIPT</span>
+                        <span class="skill-percentage">30%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="javascript"></div>
+                    </div>
                 </div>
-                <div id="sql">
-                    <span>MYSQL</span>
-                    <span id="porcentagesql">20%</span>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">SQL</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="sql"></div>
+                    </div>
                 </div>
-                <div class="menusql">
-                    <div id="mysql"></div>
-                </div>
-            </td>
-        </table>
+            </div>
+        </div>
     </section>
-    <!------------------------------------ PROYECTOS --------------------------------->
-<section>
-    <div id="proyectos">
-        <div class="titulo">
-            <H2>PROYECTOS</H2>
-        </div>
-        <div class="streetf">
-            <div class="street1">
-                <img class="street-img" src="./img/street1.png" alt="streetfighter">
-                <div class="street2">
-                    <div>
-                       <p id="texto"> 
-                            <b>
-                                Es un proyecto realizado en grupo y los lengujes implicados son: 
-                                HTML,CSS,JAVASCRIPT,NODEJS Y REACT.
-                            </b>
+
+    <section class="projects section" id="proyectos">
+        <div class="container">
+            <h2 class="section-title">PROYECTOS</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">STREETFIGHTER</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">NodeJS</span>
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <img class="project-img" src="./img/street1.png" alt="StreetFighter proyecto">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-description">
+                            Es un proyecto realizado en grupo utilizando diversas tecnologías web modernas. 
+                            Se implementaron mecánicas de juego tipo lucha con gráficos atractivos e interactivos.
                         </p>
-                        <a href="https://github.com/StreetfighterTrabajoUF5/StreetFighter"><button id="boton-street">STREETFIGHTER</button></a>
+                        <div class="project-links">
+                            <a href="https://github.com/StreetfighterTrabajoUF5/StreetFighter" class="project-button"><i class="fa-brands fa-github"></i> Ver código</a>
+                        </div>
                     </div>
                 </div>
-           
-            </div>
-        </div>
-        <div class="sopa">
-            <div class="sopal">
-                <img class="sopa-img" src="./img/sopaletras1.png" alt="sopaletras">
-                <div class="sopal1">
-                    <div>
-                        <p id="texto"> 
-                            <b>
-                               Es una sopa de letras realizada en javascript con tres niveles 
-                               que va por tiempo y en el que puedes ver el tiempo realizado en cada
-                               nivel.
-                            </b>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">SOPA DE LETRAS</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <img class="project-img" src="./img/sopaletras1.png" alt="Sopa de letras proyecto">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-description">
+                            Juego de sopa de letras con tres niveles de dificultad, temporizador 
+                            y registro de tiempos por nivel. Incluye sistema de puntuación e interfaz interactiva.
                         </p>
-                        <a href="./sopa_de_letras/sopaletra.html"><button id="boton-sopa">SOPA DE LETRAS</button></a>
+                        <div class="project-links">
+                            <a href="./sopa_de_letras/sopaletra.html" class="project-button"><i class="fa-solid fa-play"></i> Jugar ahora</a>
+                            <a href="https://github.com/raulmasso34/sopaDeLetras" class="project-button secondary"><i class="fa-brands fa-github"></i> Ver código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">DRAGON BALL</h3>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">POO</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <img class="project-img" src="./img/dragonball1.png" alt="Dragon Ball proyecto">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-description">
+                            Juego de combate basado en Dragon Ball desarrollado con Programación Orientada a Objetos.
+                            Permite al jugador elegir un héroe y enfrentarse a villanos aleatorios mediante un sistema de combate por turnos.
+                        </p>
+                        <div class="project-links">
+                            <a href="./exercici1.1/index.html" class="project-button"><i class="fa-solid fa-play"></i> Jugar ahora</a>
+                            <a href="https://github.com/raulmasso34/dragonball" class="project-button secondary"><i class="fa-brands fa-github"></i> Ver código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">CONNECTA 5</h3>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <img class="project-img" src="./img/connecta5.jpg" alt="Connecta 5 proyecto">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-description">
+                            Versión del clásico juego "Conecta 4" ampliado a "Connecta 5" con temática de 
+                            Hora de Aventuras. Incluye mecánicas de juego estratégicas y diseño visual atractivo.
+                        </p>
+                        <div class="project-links">
+                            <a href="./connecta-cinco/index.html" class="project-button"><i class="fa-solid fa-play"></i> Jugar ahora</a>
+                            <a href="https://github.com/raulmasso34/connecta-cinco" class="project-button secondary"><i class="fa-brands fa-github"></i> Ver código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="load-more-container">
+                <button id="load-more-btn" class="load-more-btn">Ver más proyectos <i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+            
+            <div id="additional-projects" class="projects-grid hidden-section">
+                <!-- Proyecto 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">HOTEL CALIOPE</h3>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <img class="project-img" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop" alt="Hotel Caliope proyecto">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-description">
+                            Aplicación web para gestión de reservas y servicios del Hotel Caliope. 
+                            Incluye sistema de reservas, gestión de habitaciones y servicios para los huéspedes.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/raulmasso34/AdministradorHotel-NodeJS" class="project-button"><i class="fa-brands fa-github"></i> Ver código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">ADMINISTRACIÓN DE HOTEL</h3>
+                        <div class="project-tags">
+                            <span class="tag">NodeJS</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">EJS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <img class="project-img" src="https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=1000&auto=format&fit=crop" alt="Administración de Hotel proyecto">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-description">
+                            Sistema de administración interna para hoteles con gestión de personal, inventario,
+                            facturación y estadísticas. Desarrollado con arquitectura basada en NodeJS y Express
+                            con una interfaz construida con Bootstrap.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/raulmasso34/AdministradorHotel-NodeJS" class="project-button"><i class="fa-brands fa-github"></i> Ver código</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="dragon">
-            <div class="dragonb">
-                <img class="dragon-img" src="./img/dragonball1.png" alt="dragonball">
-                <div class="dragonball">
-                    <div>
-                        <p id="texto"> 
-                            <b>
-                              Es un juego realizado en JavaScript con POO en el que eliges un heroe 
-                              y te escogera un villano al azar en el que luchareis por botones y 
-                              las estadisticas y ataques se mostraran por consola.
-                            </b>
-                        </p>
-                        <a href="./exercici1.1/index.html"><button id="boton-dragon">DRAGON BALL</button></a>
+    </section>
 
-                    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="contact-section">
+                <a href="./Currículum Raúl Massó.pdf" class="cv-link">
+                    <img src="img/logowhite.png" alt="Logo" class="footer-logo">
+                </a>
+                <div class="social-links">
+                    <a href="https://github.com/raulmasso34" class="social-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/raul-masso-30a919284/" class="social-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:raulmasso442@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="tel:+34684042565" class="social-link" aria-label="Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
                 </div>
+                <p class="footer-text">Para más información accede a mi curriculum dándole al logo.</p>
             </div>
         </div>
-        <div class="connecta">
-            <div class="connecta5">
-                <img class="connect-img" src="./img/connecta5.jpg" alt="connecta5">
-                <div class="connect5" >
-                    <div>
-                        <p id="texto"> 
-                            <b>
-                              Es un connecta5 ambientado en la serie infantil 
-                              Hora de Aventuras realizado en JavaScript
-                            </b>
-                        </p>
-                        <a href="./connecta-cinco/index.html"><button id="boton-connecta5">CONNECTA 5</button></a>
+    </footer>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-
-<!-------------------------------------CONTACTOS--------------------------------->
-
-<footer>
-   <div class="contactos">
-        <a href="./Currículum Raúl Massó.pdf"><img src="img/logowhite.png" alt="logo" id="logocontacto"></a>
-   </div> 
-   <td>
-        <a href="https://github.com/raulmasso34"><i class="fa-brands fa-github" id="github"></i></a>
-   </td>
-   <td>
-        <a href="https://www.linkedin.com/in/raul-masso-30a919284/"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
-   </td>
-   <td>
-        <a href="mailto:raulmasso442@gmail.com"> <i class="fa-solid fa-envelope" id="email"></i></a>
-   </td>
-   <td>
-        <a href="tel:+34684042565"><i class="fa-solid fa-phone" id="phone"></i></a> 
-   </td>
-   <p>*Para mas informacion accede a mi curriculum dandole al logo.</p>
-</footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            const additionalProjects = document.getElementById('additional-projects');
+            
+            loadMoreBtn.addEventListener('click', function() {
+                additionalProjects.classList.toggle('hidden-section');
+                
+                if (this.innerHTML.includes('Ver más')) {
+                    this.innerHTML = 'Ver menos proyectos <i class="fa-solid fa-chevron-up"></i>';
+                } else {
+                    this.innerHTML = 'Ver más proyectos <i class="fa-solid fa-chevron-down"></i>';
+                    additionalProjects.classList.add('hidden-section');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
