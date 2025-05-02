@@ -12,33 +12,55 @@
     <script src="https://kit.fontawesome.com/0b096b5b6f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ca">CA</button>
+    </div>
+
     <header class="header">
         <div class="container">
             <div class="profile">
                 <img src="img/foto.jpg" alt="Raúl Manuel Massó Dueñas" class="profile-img">
                 <h1 class="name">RAÚL MANUEL MASSÓ DUEÑAS</h1>
-                <h2 class="title">DESARROLLADOR DE APLICACIONES WEB</h2>
+                <h2 class="title lang-es">DESARROLLADOR DE APLICACIONES WEB</h2>
+                <h2 class="title lang-en hidden">WEB APPLICATION DEVELOPER</h2>
+                <h2 class="title lang-ca hidden">DESENVOLUPADOR D'APLICACIONS WEB</h2>
             </div>
         </div>
     </header>
 
     <section class="about section">
         <div class="container">
-            <p class="about-text">
+            <p class="about-text lang-es">
                 Soy una persona con muchas ganas de crecer profesionalmente en el mundo del desarrollo, ya sea web o móvil. Me esfuerzo por cumplir los objetivos que se me asignan con calidad y en el plazo establecido, valorando siempre la responsabilidad, el respeto y el trabajo en equipo. Me gusta innovar en todo lo que hago y aprender continuamente.
                 <br><br>
                 Me motiva trabajar en entornos bien organizados, donde los objetivos estén claros y exista una buena planificación. Estoy buscando una oportunidad donde pueda seguir desarrollando mis habilidades, aportar valor al equipo y crecer profesionalmente.
-            </p>          
+            </p>
+            <p class="about-text lang-en hidden">
+                I am a person eager to grow professionally in the development world, whether web or mobile. I strive to meet assigned objectives with quality and within the established timeframe, always valuing responsibility, respect, and teamwork. I like to innovate in everything I do and continuously learn.
+                <br><br>
+                I am motivated to work in well-organized environments where goals are clear and there is good planning. I am looking for an opportunity where I can continue developing my skills, add value to the team, and grow professionally.
+            </p>
+            <p class="about-text lang-ca hidden">
+                Sóc una persona amb moltes ganes de créixer professionalment en el món del desenvolupament, ja sigui web o mòbil. M'esforço per complir els objectius que se m'assignen amb qualitat i en el termini establert, valorant sempre la responsabilitat, el respecte i el treball en equip. M'agrada innovar en tot el que faig i aprendre contínuament.
+                <br><br>
+                Em motiva treballar en entorns ben organitzats, on els objectius estiguin clars i existeixi una bona planificació. Estic buscant una oportunitat on pugui seguir desenvolupant les meves habilitats, aportar valor a l'equip i créixer professionalment.
+            </p>
         </div>
     </section>
 
     <section class="skills section">
         <div class="container skills-container">
             <div class="skill-card">
-                <h2 class="skill-title">COMPETENCIA LINGÜÍSTICA</h2>
+                <h2 class="skill-title lang-es">COMPETENCIA LINGÜÍSTICA</h2>
+                <h2 class="skill-title lang-en hidden">LANGUAGE PROFICIENCY</h2>
+                <h2 class="skill-title lang-ca hidden">COMPETÈNCIA LINGÜÍSTICA</h2>
                 <div class="skill-item">
                     <div class="skill-info">
-                        <span class="skill-name">CASTELLANO</span>
+                        <span class="skill-name lang-es">CASTELLANO</span>
+                        <span class="skill-name lang-en hidden">SPANISH</span>
+                        <span class="skill-name lang-ca hidden">CASTELLÀ</span>
                         <span class="skill-percentage">C1</span>
                     </div>
                     <div class="progress-bar">
@@ -47,7 +69,9 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-info">
-                        <span class="skill-name">CATALÁN</span>
+                        <span class="skill-name lang-es">CATALÁN</span>
+                        <span class="skill-name lang-en hidden">CATALAN</span>
+                        <span class="skill-name lang-ca hidden">CATALÀ</span>
                         <span class="skill-percentage">C1</span>
                     </div>
                     <div class="progress-bar">
@@ -56,7 +80,9 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-info">
-                        <span class="skill-name">INGLÉS</span>
+                        <span class="skill-name lang-es">INGLÉS</span>
+                        <span class="skill-name lang-en hidden">ENGLISH</span>
+                        <span class="skill-name lang-ca hidden">ANGLÈS</span>
                         <span class="skill-percentage">B1</span>
                     </div>
                     <div class="progress-bar">
@@ -66,10 +92,14 @@
             </div>
             
             <div class="skill-card">
-                <h2 class="skill-title">COMPETENCIAS PERSONALES</h2>
+                <h2 class="skill-title lang-es">COMPETENCIAS PERSONALES</h2>
+                <h2 class="skill-title lang-en hidden">PERSONAL SKILLS</h2>
+                <h2 class="skill-title lang-ca hidden">COMPETÈNCIES PERSONALS</h2>
                 <div class="skill-item">
                     <div class="skill-info">
-                        <span class="skill-name">RESOLUTIVO</span>
+                        <span class="skill-name lang-es">RESOLUTIVO</span>
+                        <span class="skill-name lang-en hidden">PROBLEM SOLVER</span>
+                        <span class="skill-name lang-ca hidden">RESOLUTIU</span>
                         <span class="skill-percentage">70%</span>
                     </div>
                     <div class="progress-bar">
@@ -78,7 +108,9 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-info">
-                        <span class="skill-name">PERSEVERANTE</span>
+                        <span class="skill-name lang-es">PERSEVERANTE</span>
+                        <span class="skill-name lang-en hidden">PERSISTENT</span>
+                        <span class="skill-name lang-ca hidden">PERSEVERANT</span>
                         <span class="skill-percentage">90%</span>
                     </div>
                     <div class="progress-bar">
@@ -87,7 +119,9 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-info">
-                        <span class="skill-name">CARISMÁTICO</span>
+                        <span class="skill-name lang-es">CARISMÁTICO</span>
+                        <span class="skill-name lang-en hidden">CHARISMATIC</span>
+                        <span class="skill-name lang-ca hidden">CARISMÀTIC</span>
                         <span class="skill-percentage">80%</span>
                     </div>
                     <div class="progress-bar">
@@ -97,7 +131,9 @@
             </div>
             
             <div class="skill-card">
-                <h2 class="skill-title">COMPETENCIAS TIC/TECNOLÓGICAS</h2>
+                <h2 class="skill-title lang-es">COMPETENCIAS TIC/TECNOLÓGICAS</h2>
+                <h2 class="skill-title lang-en hidden">IT/TECH SKILLS</h2>
+                <h2 class="skill-title lang-ca hidden">COMPETÈNCIES TIC/TECNOLÒGIQUES</h2>
                 <div class="skill-item">
                     <div class="skill-info">
                         <span class="skill-name">SCRIPTCASE</span>
@@ -185,7 +221,9 @@
 
     <section class="projects section" id="proyectos">
         <div class="container">
-            <h2 class="section-title">PROYECTOS</h2>
+            <h2 class="section-title lang-es">PROYECTOS</h2>
+            <h2 class="section-title lang-en hidden">PROJECTS</h2>
+            <h2 class="section-title lang-ca hidden">PROJECTES</h2>
             <div class="projects-grid" id="projects-container">
                 <!-- Proyecto 1 -->
                 <div class="project-card">
@@ -203,12 +241,25 @@
                         <img class="project-img" src="./img/street1.png" alt="StreetFighter proyecto">
                     </div>
                     <div class="project-info">
-                        <p class="project-description">
+                        <p class="project-description lang-es">
                             Es un proyecto realizado en grupo utilizando diversas tecnologías web modernas. 
                             Se implementaron mecánicas de juego tipo lucha con gráficos atractivos e interactivos.
                         </p>
+                        <p class="project-description lang-en hidden">
+                            A group project using various modern web technologies.
+                            Fighting game mechanics were implemented with attractive and interactive graphics.
+                        </p>
+                        <p class="project-description lang-ca hidden">
+                            És un projecte realitzat en grup utilitzant diverses tecnologies web modernes.
+                            Es van implementar mecàniques de joc tipus lluita amb gràfics atractius i interactius.
+                        </p>
                         <div class="project-links">
-                            <a href="https://github.com/StreetfighterTrabajoUF5/StreetFighter" class="project-button"><i class="fa-brands fa-github"></i> Ver código</a>
+                            <a href="https://github.com/StreetfighterTrabajoUF5/StreetFighter" class="project-button">
+                                <i class="fa-brands fa-github"></i> 
+                                <span class="lang-es">Ver código</span>
+                                <span class="lang-en hidden">View code</span>
+                                <span class="lang-ca hidden">Veure codi</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -227,13 +278,31 @@
                         <img class="project-img" src="./img/sopaletras1.png" alt="Sopa de letras proyecto">
                     </div>
                     <div class="project-info">
-                        <p class="project-description">
+                        <p class="project-description lang-es">
                             Juego de sopa de letras con tres niveles de dificultad, temporizador 
                             y registro de tiempos por nivel. Incluye sistema de puntuación e interfaz interactiva.
                         </p>
+                        <p class="project-description lang-en hidden">
+                            Word search game with three difficulty levels, timer,
+                            and time tracking per level. Includes scoring system and interactive interface.
+                        </p>
+                        <p class="project-description lang-ca hidden">
+                            Joc de sopa de lletres amb tres nivells de dificultat, temporitzador
+                            i registre de temps per nivell. Inclou sistema de puntuació i interfície interactiva.
+                        </p>
                         <div class="project-links">
-                            <a href="./sopa_de_letras/sopaletra.html" class="project-button"><i class="fa-solid fa-play"></i> Jugar ahora</a>
-                            <a href="https://github.com/raulmasso34/sopaDeLetras" class="project-button secondary"><i class="fa-brands fa-github"></i> Ver código</a>
+                            <a href="./sopa_de_letras/sopaletra.html" class="project-button">
+                                <i class="fa-solid fa-play"></i> 
+                                <span class="lang-es">Jugar ahora</span>
+                                <span class="lang-en hidden">Play now</span>
+                                <span class="lang-ca hidden">Jugar ara</span>
+                            </a>
+                            <a href="https://github.com/raulmasso34/sopaDeLetras" class="project-button secondary">
+                                <i class="fa-brands fa-github"></i> 
+                                <span class="lang-es">Ver código</span>
+                                <span class="lang-en hidden">View code</span>
+                                <span class="lang-ca hidden">Veure codi</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -253,13 +322,31 @@
                         <img class="project-img" src="./img/dragonball1.png" alt="Dragon Ball proyecto">
                     </div>
                     <div class="project-info">
-                        <p class="project-description">
+                        <p class="project-description lang-es">
                             Juego de combate basado en Dragon Ball desarrollado con Programación Orientada a Objetos.
                             Permite al jugador elegir un héroe y enfrentarse a villanos aleatorios mediante un sistema de combate por turnos.
                         </p>
+                        <p class="project-description lang-en hidden">
+                            Combat game based on Dragon Ball developed with Object-Oriented Programming.
+                            Allows the player to choose a hero and face random villains through a turn-based combat system.
+                        </p>
+                        <p class="project-description lang-ca hidden">
+                            Joc de combat basat en Dragon Ball desenvolupat amb Programació Orientada a Objectes.
+                            Permet al jugador triar un heroi i enfrontar-se a vilans aleatoris mitjançant un sistema de combat per torns.
+                        </p>
                         <div class="project-links">
-                            <a href="./exercici1.1/index.html" class="project-button"><i class="fa-solid fa-play"></i> Jugar ahora</a>
-                            <a href="https://github.com/raulmasso34/dragonball" class="project-button secondary"><i class="fa-brands fa-github"></i> Ver código</a>
+                            <a href="./exercici1.1/index.html" class="project-button">
+                                <i class="fa-solid fa-play"></i>
+                                <span class="lang-es">Jugar ahora</span>
+                                <span class="lang-en hidden">Play now</span>
+                                <span class="lang-ca hidden">Jugar ara</span>
+                            </a>
+                            <a href="https://github.com/raulmasso34/dragonball" class="project-button secondary">
+                                <i class="fa-brands fa-github"></i>
+                                <span class="lang-es">Ver código</span>
+                                <span class="lang-en hidden">View code</span>
+                                <span class="lang-ca hidden">Veure codi</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -278,20 +365,43 @@
                         <img class="project-img" src="./img/connecta5.jpg" alt="Connecta 5 proyecto">
                     </div>
                     <div class="project-info">
-                        <p class="project-description">
+                        <p class="project-description lang-es">
                             Versión del clásico juego "Conecta 4" ampliado a "Connecta 5" con temática de 
                             Hora de Aventuras. Incluye mecánicas de juego estratégicas y diseño visual atractivo.
                         </p>
+                        <p class="project-description lang-en hidden">
+                            Version of the classic "Connect 4" game expanded to "Connect 5" with an Adventure Time theme.
+                            Includes strategic game mechanics and attractive visual design.
+                        </p>
+                        <p class="project-description lang-ca hidden">
+                            Versió del clàssic joc "Connecta 4" ampliat a "Connecta 5" amb temàtica de
+                            Hora d'Aventures. Inclou mecàniques de joc estratègiques i disseny visual atractiu.
+                        </p>
                         <div class="project-links">
-                            <a href="./connecta-cinco/index.html" class="project-button"><i class="fa-solid fa-play"></i> Jugar ahora</a>
-                            <a href="https://github.com/raulmasso34/connecta-cinco" class="project-button secondary"><i class="fa-brands fa-github"></i> Ver código</a>
+                            <a href="./connecta-cinco/index.html" class="project-button">
+                                <i class="fa-solid fa-play"></i>
+                                <span class="lang-es">Jugar ahora</span>
+                                <span class="lang-en hidden">Play now</span>
+                                <span class="lang-ca hidden">Jugar ara</span>
+                            </a>
+                            <a href="https://github.com/raulmasso34/connecta-cinco" class="project-button secondary">
+                                <i class="fa-brands fa-github"></i>
+                                <span class="lang-es">Ver código</span>
+                                <span class="lang-en hidden">View code</span>
+                                <span class="lang-ca hidden">Veure codi</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="load-more-container">
-                <button id="load-more-btn" class="load-more-btn">Ver más proyectos <i class="fa-solid fa-chevron-down"></i></button>
+                <button id="load-more-btn" class="load-more-btn">
+                    <span class="lang-es">Ver más proyectos</span>
+                    <span class="lang-en hidden">View more projects</span>
+                    <span class="lang-ca hidden">Veure més projectes</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
             </div>
             
             <div id="additional-projects" class="projects-grid hidden-section">
@@ -311,12 +421,25 @@
                         <img class="project-img" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop" alt="Hotel Caliope proyecto">
                     </div>
                     <div class="project-info">
-                        <p class="project-description">
+                        <p class="project-description lang-es">
                             Aplicación web para gestión de reservas y servicios del Hotel Caliope. 
                             Incluye sistema de reservas, gestión de habitaciones y servicios para los huéspedes.
                         </p>
+                        <p class="project-description lang-en hidden">
+                            Web application for managing reservations and services at Hotel Caliope.
+                            Includes booking system, room management, and guest services.
+                        </p>
+                        <p class="project-description lang-ca hidden">
+                            Aplicació web per a gestió de reserves i serveis de l'Hotel Caliope.
+                            Inclou sistema de reserves, gestió d'habitacions i serveis per als hostes.
+                        </p>
                         <div class="project-links">
-                            <a href="https://github.com/raulmasso34/AdministradorHotel-NodeJS" class="project-button"><i class="fa-brands fa-github"></i> Ver código</a>
+                            <a href="https://github.com/raulmasso34/AdministradorHotel-NodeJS" class="project-button">
+                                <i class="fa-brands fa-github"></i>
+                                <span class="lang-es">Ver código</span>
+                                <span class="lang-en hidden">View code</span>
+                                <span class="lang-ca hidden">Veure codi</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -338,13 +461,28 @@
                         <img class="project-img" src="https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=1000&auto=format&fit=crop" alt="Administración de Hotel proyecto">
                     </div>
                     <div class="project-info">
-                        <p class="project-description">
+                        <p class="project-description lang-es">
                             Sistema de administración interna para hoteles con gestión de personal, inventario,
                             facturación y estadísticas. Desarrollado con arquitectura basada en NodeJS y Express
                             con una interfaz construida con Bootstrap.
                         </p>
+                        <p class="project-description lang-en hidden">
+                            Internal administration system for hotels with staff management, inventory,
+                            billing and statistics. Developed with NodeJS and Express architecture
+                            with an interface built with Bootstrap.
+                        </p>
+                        <p class="project-description lang-ca hidden">
+                            Sistema d'administració interna per a hotels amb gestió de personal, inventari,
+                            facturació i estadístiques. Desenvolupat amb arquitectura basada en NodeJS i Express
+                            amb una interfície construïda amb Bootstrap.
+                        </p>
                         <div class="project-links">
-                            <a href="https://github.com/raulmasso34/AdministradorHotel-NodeJS" class="project-button"><i class="fa-brands fa-github"></i> Ver código</a>
+                            <a href="https://github.com/raulmasso34/AdministradorHotel-NodeJS" class="project-button">
+                                <i class="fa-brands fa-github"></i>
+                                <span class="lang-es">Ver código</span>
+                                <span class="lang-en hidden">View code</span>
+                                <span class="lang-ca hidden">Veure codi</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -357,7 +495,9 @@
             <div class="contact-section">
                 <a href="./Currículum Raúl Massó.pdf" class="cv-link">
                     <img src="img/logowhite.png" alt="Logo" class="footer-logo">
-                    <span class="cv-text">Ver Currículum</span>
+                    <span class="cv-text lang-es">Ver Currículum</span>
+                    <span class="cv-text lang-en hidden">View Resume</span>
+                    <span class="cv-text lang-ca hidden">Veure Currículum</span>
                 </a>
                 <div class="social-links">
                     <a href="https://github.com/raulmasso34" class="social-link" aria-label="GitHub">
@@ -373,28 +513,84 @@
                         <i class="fa-solid fa-phone"></i>
                     </a>
                 </div>
-                <p class="footer-text">¿Interesado en trabajar juntos? ¡Contáctame por cualquiera de estas vías!</p>
-                <p class="copyright">© 2025 Raúl Manuel Massó Dueñas - Todos los derechos reservados</p>
+                <p class="footer-text lang-es">¿Interesado en trabajar juntos? ¡Contáctame por cualquiera de estas vías!</p>
+                <p class="footer-text lang-en hidden">Interested in working together? Contact me through any of these channels!</p>
+                <p class="footer-text lang-ca hidden">Interessat en treballar junts? Contacta'm per qualsevol d'aquestes vies!</p>
+                <p class="copyright lang-es">© 2025 Raúl Manuel Massó Dueñas - Todos los derechos reservados</p>
+                <p class="copyright lang-en hidden">© 2025 Raúl Manuel Massó Dueñas - All rights reserved</p>
+                <p class="copyright lang-ca hidden">© 2025 Raúl Manuel Massó Dueñas - Tots els drets reservats</p>
             </div>
         </div>
     </footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Selector de idioma
+            const langButtons = document.querySelectorAll('.lang-btn');
+            langButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    changeLang(lang);
+                    
+                    // Actualizar botones activos
+                    langButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+            
+            function changeLang(lang) {
+                // Ocultar todos los elementos de idioma
+                document.querySelectorAll('[class*="lang-"]').forEach(el => {
+                    if (el.classList.contains(`lang-${lang}`)) {
+                        el.classList.remove('hidden');
+                    } else if (el.classList.contains('lang-es') || el.classList.contains('lang-en') || el.classList.contains('lang-ca')) {
+                        el.classList.add('hidden');
+                    }
+                });
+                
+                // Cambiar el atributo lang del HTML
+                document.documentElement.lang = lang;
+                
+                // Actualizar el texto del botón de "Ver más proyectos"
+                updateLoadMoreButton();
+            }
+            
+            // Botón "Ver más proyectos"
             const loadMoreBtn = document.getElementById('load-more-btn');
             const additionalProjects = document.getElementById('additional-projects');
             
             loadMoreBtn.addEventListener('click', function() {
                 additionalProjects.classList.toggle('hidden-section');
-                
-                if (this.innerHTML.includes('Ver más')) {
-                    this.innerHTML = 'Ver menos proyectos <i class="fa-solid fa-chevron-up"></i>';
-                } else {
-                    this.innerHTML = 'Ver más proyectos <i class="fa-solid fa-chevron-down"></i>';
-                    additionalProjects.classList.add('hidden-section');
-                }
+                updateLoadMoreButton();
             });
+            
+            function updateLoadMoreButton() {
+                const lang = document.documentElement.lang;
+                const isExpanded = !additionalProjects.classList.contains('hidden-section');
+                
+                let lessTextMap = {
+                    'es': 'Ver menos proyectos <i class="fa-solid fa-chevron-up"></i>',
+                    'en': 'View less projects <i class="fa-solid fa-chevron-up"></i>',
+                    'ca': 'Veure menys projectes <i class="fa-solid fa-chevron-up"></i>'
+                };
+                
+                let moreTextMap = {
+                    'es': 'Ver más proyectos <i class="fa-solid fa-chevron-down"></i>',
+                    'en': 'View more projects <i class="fa-solid fa-chevron-down"></i>',
+                    'ca': 'Veure més projectes <i class="fa-solid fa-chevron-down"></i>'
+                };
+                
+                if (isExpanded) {
+                    loadMoreBtn.innerHTML = lessTextMap[lang];
+                } else {
+                    loadMoreBtn.innerHTML = moreTextMap[lang];
+                }
+            }
+            
+            // Inicializar con el idioma español
+            changeLang('es');
         });
     </script>
 </body>
-</html>
