@@ -14,14 +14,14 @@
 <body>
     <div class="language-selector">
         <button class="lang-btn active" data-lang="es">ES</button>
-        <button class="lang-btn" data-lang="en">EN</button>
         <button class="lang-btn" data-lang="ca">CA</button>
+        <button class="lang-btn" data-lang="en">EN</button>
     </div>
 
     <header class="header">
         <div class="container">
             <div class="profile">
-                <img src="img/foto.jpg" alt="Raúl Manuel Massó Dueñas" class="profile-img">
+                <img src="img/foto.jpeg" alt="Raúl Manuel Massó Dueñas" class="profile-img">
                 <h1 class="name">RAÚL MANUEL MASSÓ DUEÑAS</h1>
                 <h2 class="title lang-es">DESARROLLADOR DE APLICACIONES WEB</h2>
                 <h2 class="title lang-en hidden">WEB APPLICATION DEVELOPER</h2>
@@ -126,6 +126,17 @@
                     </div>
                     <div class="progress-bar">
                         <div class="progress" id="carismatico"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name lang-es">CREATIVO</span>
+                        <span class="skill-name lang-en hidden">CREATIVE</span>
+                        <span class="skill-name lang-ca hidden">CREATIU</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" id="creativo"></div>
                     </div>
                 </div>
             </div>
@@ -493,7 +504,7 @@
     <footer class="footer">
         <div class="container">
             <div class="contact-section">
-                <a href="./Currículum Raúl Massó.pdf" class="cv-link">
+                <a href="./Currículum Raúl Massó (castellano).pdf" class="cv-link" id="cv-link">
                     <img src="img/logowhite.png" alt="Logo" class="footer-logo">
                     <span class="cv-text lang-es">Ver Currículum</span>
                     <span class="cv-text lang-en hidden">View Resume</span>
@@ -527,6 +538,15 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Selector de idioma
             const langButtons = document.querySelectorAll('.lang-btn');
+            const cvLink = document.getElementById('cv-link');
+            
+            // Mapeo de idiomas a archivos CV
+            const cvFiles = {
+                'es': './Currículum Raúl Massó (castellano).pdf',
+                'en': './Currículum Raúl Massó (english).pdf',
+                'ca': './Currículum Raúl Massó (catalan).pdf'
+            };
+            
             langButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     const lang = this.getAttribute('data-lang');
@@ -537,6 +557,11 @@
                         btn.classList.remove('active');
                     });
                     this.classList.add('active');
+                    
+                    // Actualizar enlace al CV según el idioma
+                    if (cvFiles[lang]) {
+                        cvLink.setAttribute('href', cvFiles[lang]);
+                    }
                 });
             });
             
@@ -594,3 +619,4 @@
         });
     </script>
 </body>
+</html>

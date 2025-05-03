@@ -1,4 +1,9 @@
-/* Selector de idioma */
+#creativo {
+    animation: creativo-barra 2s forwards;
+}
+@keyframes creativo-barra {
+    100% { width: 60%; }
+}/* Selector de idioma */
 .language-selector {
     position: fixed;
     top: 20px;
